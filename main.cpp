@@ -62,7 +62,7 @@ vector<Team> readCSV(const string & teams_csvFile) {
 
   }
   int main() {
-      string filename = "C:\Users\linds\Downloads\teams_csvFile.csv";
+      string filename = "C:\Users\linds\CLionProjects\Project\teams_csvFile.xlsx";
       const string teams_csvFile;
   vector<Team> teams = readCSV(teams_csvFile);
 
@@ -132,6 +132,8 @@ void saveFixturesToFile(const vector<pair<Team, Team>> &fixtures, const string &
 //https://dev.to/uponthesky/c-making-a-simple-json-parser-from-scratch-250g
 
 }
+
+
 
 
 
