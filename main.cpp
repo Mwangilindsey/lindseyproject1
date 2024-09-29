@@ -62,7 +62,7 @@ vector<Team> readCSV(const string & teams_csvFile) {
 
   }
   int main() {
-      string filename = "C:\Users\linds\CLionProjects\Project\teams_csvFile.xlsx";
+      string filename ="C:\Users\linds\CLionProjects\Project\teams_csvFile.xlsx";
       const string teams_csvFile;
   vector<Team> teams = readCSV(teams_csvFile);
 
